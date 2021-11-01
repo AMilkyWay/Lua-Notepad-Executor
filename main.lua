@@ -1,4 +1,4 @@
-FILES = "files/"
+FILES = "files/" -- Or the path to any directory you want.
 
 last_file_path = "files/input.txt"
 last_file_name = "input"
@@ -23,5 +23,4 @@ local function executeFile(fileName)
   -- End
 end
 
-executeFile(last_file_name) -- Put the file name in there
-
+executeFile(last_file_name) -- Put the file name in there.
